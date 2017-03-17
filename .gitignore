@@ -1,0 +1,22 @@
+syntax: glob
+
+target/
+
+.mvn/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+###
+.metadata/*
+.settings/*
+.classpath
+.project
+mvnw
+mvnw.cmd
+
+*.jar

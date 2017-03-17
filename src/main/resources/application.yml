@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/farmbook?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&connectionCollation=utf8_general_ci&autoReconnect=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: farmbook
+    password: farmbook
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
